@@ -68,6 +68,7 @@ const WeatherApp = () => {
     }
   };
   return (
+    // build the ui
     <div className="container">
       <div className="top-bar">
         <input type="text" className="cityInput" placeholder="Enter a city" />

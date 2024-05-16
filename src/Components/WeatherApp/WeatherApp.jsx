@@ -30,7 +30,7 @@ const WeatherApp = () => {
     wind[0].innerHTML = Math.floor(data.wind.speed) + " km/h";
     temperature[0].innerHTML = Math.floor(data.main.temp) + " °C";
     location[0].innerHTML = data.name;
-    // CHANGE ICON
+    // CHANGE ICON HERE
     if (data.weather[0].icon === "01d" || data.weather[0].icon === "01n") {
       setWicon(clear_icon);
     } else if (
